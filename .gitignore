@@ -1,0 +1,6 @@
+/.vscode
+/vendor
+/cache
+**/.directory
+**/.DS_Store
+**/__*

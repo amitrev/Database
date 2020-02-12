@@ -1,0 +1,22 @@
+{
+    "name": "krinas/database",
+    "description": "PHP database",
+    "keywords": ["database","PDO","mysql","mariadb"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Atanas Mitrev",
+            "email": "amitrev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+		"psr-4": {
+			"Krinas\\": "/src"
+		}
+	}
+}
